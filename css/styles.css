@@ -348,7 +348,6 @@ color: #757575;
 }
 
 .portfolio-item{
-    padding: 6px 22px 6px 22px;
     background-color: #F5F4FA;
     border-radius: 4px;
 }
@@ -374,8 +373,8 @@ color: #757575;
     letter-spacing: 0.03em;
     border: transparent;
     background-color: transparent;
-
     color: #212121;
+    padding: 6px 22px 6px 22px;
 }
 
 
