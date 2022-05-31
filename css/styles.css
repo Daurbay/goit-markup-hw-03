@@ -109,11 +109,15 @@ display: block;
 .menu-link:focus{
     color: var(--focus-accent-color);
 }
+
+.header-contacts-item{
+    margin-right: 50px;
+}
+
 .phone-number{
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
-margin-right: 50px;
 
 color: #757575;
 }
@@ -188,6 +192,8 @@ color: #757575;
     .our-features-list{display: flex;}
     .our-features-item{
         width: 270px;
+    }
+    .our-features-item:not(:last-child){
         margin-right: 30px;
     }
     
@@ -263,7 +269,6 @@ padding-bottom: 30px;
 
 .our-teams-person-title{
     font-weight: 500;
-    max-width: 250px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -393,7 +398,7 @@ padding-bottom: 30px;
 .projects-list-item-title-description{
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,88;
+    line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--description-text-color);
 }
